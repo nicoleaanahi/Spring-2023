@@ -257,7 +257,7 @@ gitexper
 library(wordcloud2)
 library(tidyverse)
 
-stop_words <- c('a', 'and', 'for', 'the', 'to', 'in','be','i','it','of','that','with','can','about','if')
+stop_words <- c('a', 'and', 'for', 'the', 'to', 'in','be','i','it','of','that','with','can','about','if','how','use','my','when','am','on','im')
 
  words<-survey %>% select(text = WantToDo) %>%
    mutate(text = tolower(text)) %>% 
