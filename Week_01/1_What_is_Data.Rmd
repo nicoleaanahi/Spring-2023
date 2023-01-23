@@ -198,7 +198,9 @@ degree<-survey %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         axis.ticks.x=element_blank(),
-        axis.text.x = element_blank())
+        axis.text.x = element_blank(),
+         legend.text = element_text(size = 14),
+        title = element_text(size = 14))
 
 Rexper<-survey %>%
   count(R_experience) %>%
@@ -213,7 +215,9 @@ Rexper<-survey %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         axis.ticks.x=element_blank(),
-        axis.text.x = element_blank())
+        axis.text.x = element_blank(),
+         legend.text = element_text(size = 14),
+        title = element_text(size = 14))
 
 # git hub
 gitexper<-survey %>%
@@ -229,7 +233,9 @@ gitexper<-survey %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         axis.ticks.x=element_blank(),
-        axis.text.x = element_blank())
+        axis.text.x = element_blank(),
+         legend.text = element_text(size = 14),
+        title = element_text(size = 14))
 
 
 degree
@@ -325,20 +331,13 @@ Image credit: [Allison Horst](https://github.com/allisonhorst/stats-illustration
 
 # Our semester: venturing into the wonderful world of reproducible and transparent data
 
-### We will create beautiful graphics that enable us to better understand our data using #TidyTuesday (details to follow)
+#### We will create beautiful graphics that enable us to better understand our data using #TidyTuesday (details to follow)  
 
-```{r, echo=FALSE, fig.width = 1}
-library(tweetrmd)
-tweet_screenshot(tweet_url("nsilbiger", "1219857312807940096"),
-  #maxwidth = 100,
-  theme = "dark",
-  scale = 0.5
-)
+.pull-right[![Twitter](libs/images/IMG_9408.jpg)]  
+
+.pull-left[![Twitter](libs/images/IMG_9407.jpg)]  
 
 
-
-
-```
 
 
 
