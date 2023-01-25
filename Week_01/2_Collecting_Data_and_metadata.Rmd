@@ -391,6 +391,15 @@ Keep names *short, but meaningful*
 
 ---
 
+# 3. Write dates in ISO 8601 format
+- YYYY-MM-DD (2021-01-23)
+- excel can make lots of mistakes with different date formats
+
+.pull-left[![joke1](libs/images/exceljoke1.png)]
+.pull-right[![joke1](libs/images/exceljoke2.png)]
+
+---
+
 # 4. No empty cells in your word doc
 
 - Missing data and 0 mean very different things. An empty box makes that information unknown.
