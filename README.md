@@ -5,4 +5,5 @@ There is one unique folder per week with all the information needed for that wee
 
 - [Syllabus and Schedule](https://github.com/Biol551-CSUN/Spring-2023/tree/main/Syllabus_and_Schedule)
 - [Week 01](https://github.com/Biol551-CSUN/Spring-2023/tree/main/Week_01)
+- [Week 01](https://github.com/Biol551-CSUN/Spring-2023/tree/main/Week_02)
 
