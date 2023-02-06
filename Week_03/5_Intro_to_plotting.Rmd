@@ -215,6 +215,12 @@ ggplot(faithful, aes(x = waiting, y = eruptions))+
 ```
 ]
 ---
+# Website with other ways to visualize the same data
+
+[Beyond Bar and Boxplots/](https://z3tt.github.io/beyond-bar-and-box-plots/)
+
+![](https://i0.wp.com/www.business-science.io/assets/2021-07-22-ggdist-raincloud-plots/05_plot_output.jpg?w=578&ssl=1)
+---
 # Why can’t we just look at summary statistics?
 
 .center[
