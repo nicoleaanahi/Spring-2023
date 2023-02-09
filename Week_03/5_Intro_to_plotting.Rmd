@@ -573,8 +573,9 @@ ggplot(data = [dataset],
 install.packages("palmerpenguins")
 ```
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 library(palmerpenguins)
+library(tidyverse)
 glimpse(penguins)
 ```
 
