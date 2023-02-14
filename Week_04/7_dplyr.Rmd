@@ -394,6 +394,20 @@ me %>%
 ```
 
 ---
+# What about this new *native* pipe that I keep seeing on stack exchange?
+
+.center[
+.orange[# %>%   
+# vs  
+# |>]
+]
+
+**magrittr** (from the tidyverse) vs **native** (new pipe that comes with base R so you don't need to load any libraries) 
+
+In this class I stick with %>%, but you are welcome to learn and use |>, with the understanding that there will be some minor differences in the code.
+
+[Please Read Here!](https://r4ds.hadley.nz/workflow-pipes.html)
+---
 # %>%
 
 Filter only female penguins and add a new column that calculates the log body mass  
