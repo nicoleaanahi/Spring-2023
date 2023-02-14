@@ -7,3 +7,7 @@
 - [Kenta Shimizu](https://github.com/KShimizu62/Tidy_Tuesday_CSUN)
 - [Mackenzie Hein](https://github.com/macjhein/Mac_Hein_Tidy_Tuesday)
 - [Kristen Howard](https://github.com/kristendhoward/TidyTuesday_CSUN_KH )
+
+- [Jonathan Huang](https://github.com/jonlhuang/Huang_tidytuesday.git)
+- [Hannah Merges](https://github.com/hannahmerges/Tidy-Tuesdays.git)
+- [Cindy Fajardo](https://github.com/cfajardo7)
