@@ -11,3 +11,4 @@
 - [Jonathan Huang](https://github.com/jonlhuang/Huang_tidytuesday.git)
 - [Hannah Merges](https://github.com/hannahmerges/Tidy-Tuesdays.git)
 - [Cindy Fajardo](https://github.com/cfajardo7/TidyTuesday)
+- [Avetis Mishegyan](https://github.com/AvoMR/Mishegyan-Tidy-Tuesdays
