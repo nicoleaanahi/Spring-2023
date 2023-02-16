@@ -12,3 +12,6 @@
 - [Hannah Merges](https://github.com/hannahmerges/Tidy-Tuesdays.git)
 - [Cindy Fajardo](https://github.com/cfajardo7/TidyTuesday)
 - [Avetis Mishegyan](https://github.com/AvoMR/Mishegyan-Tidy-Tuesdays)
+- [Roshan FAllah](https://github.com/rfallah23/TidyTuesdays.git)
+- [Nicole Ayala](https://github.com/nicoleaanahi/AyalaTidyTuesday.git)
+- [Mikayla Kerchen](https://github.com/mkerchen13/TidyTuesday)
