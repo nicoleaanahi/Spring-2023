@@ -15,3 +15,4 @@
 - [Roshan FAllah](https://github.com/rfallah23/TidyTuesdays.git)
 - [Nicole Ayala](https://github.com/nicoleaanahi/AyalaTidyTuesday.git)
 - [Mikayla Kerchen](https://github.com/mkerchen13/TidyTuesday)
+- [Rachel Sweet](https://github.com/raachelsweet/Tidy_Tuesday)
