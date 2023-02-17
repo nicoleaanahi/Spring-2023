@@ -17,3 +17,4 @@
 - [Mikayla Kerchen](https://github.com/mkerchen13/TidyTuesday)
 - [Rachel Sweet](https://github.com/raachelsweet/Tidy_Tuesday)
 - [Leah Reichert](https://github.com/LeahReichert/Tidy-Tuesday.git)
+- [David Villarreal](https://github.com/DVillarreal27/TidyTuesday)
