@@ -18,3 +18,4 @@
 - [Rachel Sweet](https://github.com/raachelsweet/Tidy_Tuesday)
 - [Leah Reichert](https://github.com/LeahReichert/Tidy-Tuesday.git)
 - [David Villarreal](https://github.com/DVillarreal27/TidyTuesday)
+- [Jesse Jones](https://github.com/Jesse-G-Jones/Jones_tidytuesday)
