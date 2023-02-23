@@ -1,0 +1,31 @@
+---
+title: "ClassTest"
+author: "Nyssa"
+date: "3/3/2022"
+output: 
+  html_document:
+    theme: darkly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.path = '../output/', warning = FALSE, message = FALSE)
+```
+
+## R Markdown
+
+# Load the libraries
+```{r}
+library(tidyverse)
+library(here)
+library(palmerpenguins)
+```
+
+# Make a simple plot
+
+```{r pengiun1, fig.width=3, fig.height=4, fig.asp=1.2, fig.align='center', fig.cap="This is a plot of penguins"}
+penguins%>%
+  ggplot(aes(x = bill_length_mm, y = bill_depth_mm))+
+  geom_point()
+```
+
+
