@@ -87,7 +87,7 @@ There are a **ton** of different map packages.
 Today, install the following:
 
 ```{r, eval = FALSE}
-install.packages(c("maps", "mapproj"))
+install.packages(c("maps", "mapproj", "mapdata"))
 ```
 
 Other very helpful packages:
