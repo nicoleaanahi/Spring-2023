@@ -19,4 +19,4 @@
 - [Leah Reichert](https://github.com/LeahReichert/Tidy-Tuesday.git)
 - [David Villarreal](https://github.com/DVillarreal27/TidyTuesday)
 - [Jesse Jones](https://github.com/Jesse-G-Jones/Jones_tidytuesday)
- - [Chloe Mintlow](https://github.com/amourchloe1/ChloTidyTuesday)
+ - [Chloe Mintlow](https://github.com/amourchloe1/ChloeTidyTuesday)
