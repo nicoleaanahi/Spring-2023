@@ -16,7 +16,7 @@ class: center, middle, inverse, title-slide
 ## Functional Programming
 ### Dr. Nyssa Silbiger
 ### CSUN Spring 2023
-### (updated: 2023-04-03)
+### (updated: 2023-04-04)
 
 ---
 
@@ -50,6 +50,15 @@ MathJax.Hub.Config({
 &lt;/style&gt;
 
 
+
+
+---
+# Badplot winners
+
+- First Place: Kristen
+- Second Place: Marisa
+
+&lt;img src="libs/images/badplot.png" width="50%"/&gt;
 
 
 ---
@@ -103,14 +112,14 @@ head(df)
 
 ```
 ## # A tibble: 6 x 4
-##        a       b       c       d
-##    &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
-## 1 -0.994 -0.967  -0.0781 -1.18  
-## 2  0.330 -1.67    1.30   -1.66  
-## 3 -2.02   2.04    1.16    0.0508
-## 4  2.34   0.0870 -0.295   0.458 
-## 5 -1.49   1.87   -0.0340  0.449 
-## 6  0.764  0.402  -0.989  -0.704
+##        a       b      c       d
+##    &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;
+## 1  0.690 -0.155   0.415 -0.224 
+## 2  1.05   0.192  -0.115  1.46  
+## 3 -1.79   0.640   0.545 -0.377 
+## 4  0.567  1.71    0.579 -0.460 
+## 5 -0.987 -0.0453 -0.557 -0.427 
+## 6  0.716  0.164  -2.81  -0.0538
 ```
 
 ```r
@@ -164,18 +173,18 @@ df %&gt;%
 
 ```
 ## # A tibble: 10 x 4
-##         a     b     c     d
-##     &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
-##  1 0.236  0.190 0.367 0.230
-##  2 0.539  0     0.925 0    
-##  3 0      1     0.866 0.808
-##  4 1      0.474 0.280 1    
-##  5 0.122  0.953 0.385 0.996
-##  6 0.639  0.559 0     0.452
-##  7 0.354  0.198 0.284 0.275
-##  8 0.641  0.627 0.163 0.835
-##  9 0.690  0.824 1     0.789
-## 10 0.0693 0.441 0.483 0.984
+##        a      b     c      d
+##    &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;
+##  1 0.889 0      0.952 0.120 
+##  2 1     0.186  0.796 0.978 
+##  3 0.125 0.427  0.990 0.0421
+##  4 0.851 1      1     0     
+##  5 0.373 0.0590 0.665 0.0167
+##  6 0.896 0.171  0     0.207 
+##  7 0.750 0.514  0.802 0.218 
+##  8 0     0.171  0.400 0.408 
+##  9 0.593 0.798  0.796 0.303 
+## 10 0.920 0.212  0.539 1
 ```
 
 ---
@@ -576,39 +585,44 @@ myplot(x = body_mass_g, y = flipper_length_mm, lines = FALSE)
 ---
 # Today's totally awesome R package
 
-{fortunes}: Delivers amusing quotes from the R-help mailing list.
+{emokid}: Make your code more emo... you've used the praise package, but if you need to express your frustrations now you can let the world know you are sad
 
 
 ```r
-install.packages("fortunes")
+devtools::install_github("itsrainingdata/emokid")
 ```
 
-
+For when you are really sad
 
 ```r
-library(fortunes)
-fortune()
+library(emokid)
+iamsad()
 ```
 
 ```
-## 
-## If you aren't sure of the relative priority of two operators, use parentheses.
-## 1:(nr-1) would work regardless of whether : or - had higher priority. Or, in
-## extreme cases, read the documentation.
-##    -- Duncan Murdoch
-##       R-help (August 2005)
+## i'd walk through hell for you. let it burn right through my shoes. these soles are useless without you. &lt;U+0001F622&gt;
 ```
 
+For when you are less sad
 
 ```r
-fortune()
+iamlesssad()
 ```
 
 ```
-## 
-## Cross posting is sociopathic.
-##    -- Roger Koenker
-##       R-help (November 2008)
+## i drove you to your house where we stared up at the stars, i listened to your heartbeat as i held you in my arms. &lt;U+0001F63F&gt;
+```
+
+---
+# Also...
+An emoji for your mood
+
+```r
+mymood()
+```
+
+```
+## &lt;U+0001F494&gt;
 ```
 
 ---
@@ -622,7 +636,7 @@ class: center, middle
 Use any dataset you would like and make two useful functions. One that is a plot and one that is not. Turn in your functions using RMarkdown with at least 2 examples for each function showing its flexibility. Due, as always, at 1pm on Tuesday.  
 
 
---
+---
 class: center, middle
 
 # Thanks!

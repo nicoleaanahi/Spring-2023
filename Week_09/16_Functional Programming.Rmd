@@ -55,6 +55,15 @@ green <- "#007965"
 ```
 
 ---
+# Badplot winners
+
+- First Place: Kristen
+- Second Place: Marisa
+
+<img src="libs/images/badplot.png" width="50%"/>
+
+
+---
 # Outline of class
 
 Functional programming
@@ -516,20 +525,28 @@ myplot(x = body_mass_g, y = flipper_length_mm, lines = FALSE)
 ---
 # Today's totally awesome R package
 
-{fortunes}: Delivers amusing quotes from the R-help mailing list.
+{emokid}: Make your code more emo... you've used the praise package, but if you need to express your frustrations now you can let the world know you are sad
 
 ```{r, eval=FALSE}
-install.packages("fortunes")
+devtools::install_github("itsrainingdata/emokid")
 ```
 
-
+For when you are really sad
 ```{r}
-library(fortunes)
-fortune()
+library(emokid)
+iamsad()
 ```
 
+For when you are less sad
 ```{r}
-fortune()
+iamlesssad()
+```
+
+---
+# Also...
+An emoji for your mood
+```{r}
+mymood()
 ```
 
 ---
@@ -543,7 +560,7 @@ class: center, middle
 Use any dataset you would like and make two useful functions. One that is a plot and one that is not. Turn in your functions using RMarkdown with at least 2 examples for each function showing its flexibility. Due, as always, at 1pm on Tuesday.  
 
 
---
+---
 class: center, middle
 
 # Thanks!
