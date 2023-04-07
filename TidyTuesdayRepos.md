@@ -21,4 +21,4 @@
 - [Jesse Jones](https://github.com/Jesse-G-Jones/Jones_tidytuesday)  
  - [Chloe Mintlow](https://github.com/amourchloe1/ChloeTidyTuesday)  
  - [Helia Tehrani](https://github.com/Heliaa99/TidyTuesday)  
-- []Sandy Illescas](https://github.com/scillescas/TidyTuesday)
+- [Sandy Illescas](https://github.com/scillescas/TidyTuesday)
