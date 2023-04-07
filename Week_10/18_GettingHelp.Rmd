@@ -367,6 +367,65 @@ So **LOOK AT YOUR RAW DATA, INTERMEDIATE DATA AND RESULTS** - especially just af
 ]
 
 ---
+# ChatGPT
+
+Chat GPT is a "large language model" that follows an instruction in a prompt and provides a detailed response.  
+
+A.I. can be a very helpful tool, but it is only as smart as you... if you do not know how to debug code and you trust it blindly you will find yourself in a lot of trouble. Use it to assist you, but do not use it to replace you.  
+
+Why did I tell you not to use it in class until now?
+
+--
+
+"If you’re solely relying on ChatGPT to learn how to code, you could be missing out on some crucial programming principles — like knowing how to solve problems, understanding how to read tech documentation, getting comfortable with trial and error, and building things on your own. “With coding, you need to know the fundamentals,” Julie says. “If you don’t know the fundamentals, then I don’t think the tool will be that helpful to you.” "  
+[Code Academy](https://www.codecademy.com/resources/blog/can-chatgpt-ai-teach-you-to-code/)
+
+---
+# Chat GPT
+
+There are some good blog posts on tips for using ChatGPT to help with coding problems. [Here is one from R bloggers](https://www.r-bloggers.com/2023/04/tips-for-using-chatgpt-to-learn-r/)
+
+--
+
+Here is an example of a prompt and a response:
+
+**Prompt**: explain this R code: m1 <- gam(y ~ s(year, by = sites), data = my_data, family = “poisson”)  
+
+**GPT**: The code m1 <- gam(y ~ s(year, by = sites), data = my_data) specifies a generalized additive model (GAM) in R.  
+
+Here’s what each part of the code means:  
+
+m1 <- : assigns the output of the model to the object named m1. gam() : specifies that we want to fit a generalized additive model. *y ~ s(year, by = sites) : specifies the model formula, where y is the response variable and year is the predictor variable of interest. The function s() specifies that year is a smooth function, which allows for a flexible fit to the data. The by = sites argument specifies that we want to fit separate smooth functions for each sites level, which is a way to model site-specific effects.  
+
+--
+
+*note: anytime I have asked chat GPT to code me something slightly more complicated it has given me errors or made up functions that don't exist.  Again, use it as a tool, not a replacement for learning.  
+
+---
+# ChatGPT
+
+Other helpful resources and a package!
+
+- [ChatGPT: Smart, but not smart enough](https://thenewstack.io/chatgpt-smart-but-not-smart-enough/) -  [Can generative AI teach you to code? It's complicated](https://www.codecademy.com/resources/blog/can-chatgpt-ai-teach-you-to-code/)  
+- [ChatGPT R Package](https://github.com/jcrodriguez1989/chatgpt)  
+- [ChatGPT Cheat Sheet for Data Science](https://www.datacamp.com/cheat-sheet/chatgpt-cheat-sheet-data-science)  
+
+---
+## How I personally know ChatGPT can produce false info....
+
+![GPT1](libs\images\Nyssa_GPT.png){with="30%}
+
+Ok.. this is somewhat correct
+
+---
+## How I personally know ChatGPT can produce false info....
+
+![GPT2](libs\images\Nyssa_GPT2.png){with="30%}
+
+This is 0% correct
+---
+
+---
 # Make a reproducible example to ask for help
 
 ```{r, eval = FALSE}
